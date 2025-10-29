@@ -9,7 +9,7 @@ const countElement = document.getElementById('click-count');
 function updateGreeting() {
   clickCount++;
   greetingElement.textContent = 'Hello, Browser JavaScript!';
-  countElement.textContent = \`Button clicks: \${clickCount}\`;
+  countElement.textContent = \`Button clicks: \${clickCount}\``;
 }
 
 
